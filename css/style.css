@@ -1,0 +1,28 @@
+body {
+  background-color: lightgrey;
+  margin-top: 50px;
+ }
+
+
+#carousel {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  border: 8px outset #7eb6bc;
+  border-radius: 5px;
+overflow: hidden;
+}
+
+#carousel ul {
+  margin: 0;
+  padding: 0;
+  width: 2500px;
+}
+#carousel li {
+  margin: 0;
+  padding: 0;
+  display:block;
+  list-style-type: none;
+  float: left;
+}
